@@ -1,0 +1,10 @@
+Exemplo2 DEFINITIONS AUTOMATIC TAGS ::=
+BEGIN
+
+Algo ::= SEQUENCE {
+  nome PrintableString (SIZE(2..16)),
+  qtdes SEQUENCE OF INTEGER
+}
+ 
+END
+
